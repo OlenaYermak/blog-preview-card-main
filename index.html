@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,20 +16,32 @@
   </style>
 </head>
 <body>
+<main>
+  <article class="blog-card">
+    <img class="blog-card__image" src="./assets/images/illustration-article.svg" alt="Illustration representing HTML & CSS" width="336">
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+    <div class="blog-card__content">
+      <p class="blog-card__category">Learning</p>
+      <p><time class="blog-card__date" datetime="2023-12-21">Published 21 Dec 2023</time></p>
   
-  <div class="attribution">
+      <h1 class="blog-card__title">HTML &amp; CSS foundations</h1>
+    
+      <p class="blog-card__text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+
+    <div class="blog-card__author">
+      <img class="blog-card__avatar" src="./assets/images/image-avatar.webp" alt="photo Greg Hooper" width="32">
+      <p class="blog-card__name">Greg Hooper</p>
+    </div>
+    
+  </article>
+ 
+</main>
+  <footer><div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Olena Yermak</a>.
+  </div></footer>
+  
+  
 </body>
 </html>

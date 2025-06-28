@@ -125,9 +125,11 @@
      color: hsl(228, 45%, 44%);
  }
 
- @media (min-width: 1440px) {
+
+
+ @media (min-width: 90em) {
      .blog-card {
-         max-width: 384px;
+         max-width: 24em;
      }
 
      .blog-card__category {
